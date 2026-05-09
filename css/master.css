@@ -1,6 +1,8 @@
  *{
     text-transform: capitalize;
     font-family: sans-serif;
+    transition: all 1s ease;
+    scroll-behavior: smooth;
 }
 #one{
     background-image: url(../images/home_bg.jpeg);
@@ -40,9 +42,16 @@ ul{
 li{
     padding: 5px;
     transition: 0.5s;
-  }
+    a{
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: goldenrod;
+        }
+    }
+}
 li:hover{
-  
+    
 }
 .body{
     color: white;
