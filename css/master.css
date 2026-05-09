@@ -3,7 +3,7 @@
     font-family: sans-serif;
 }
 #one{
-    background-image: url(../imgs/home_bg.jpeg);
+    background-image: url(../images/home_bg.jpeg);
     background-size: cover;
     height: 100vh;
 }
@@ -138,7 +138,7 @@ span{
     height: 300px;
 }
 #three{
-    background-image: url(../imgs/offer-background.jpg);
+    background-image: url(../images/offer-background.jpg);
     background-size: cover;
     height: 650px;
     display: flex;
@@ -277,7 +277,7 @@ span{
     color: goldenrod; 
 }
 #five{
-    background-image: url(../imgs/daytime_bg.jpeg);
+    background-image: url(../images/daytime_bg.jpeg);
     background-size: cover;
     height: fit-content;
     display: flex;
@@ -306,7 +306,7 @@ span{
     margin: 10px;
 }
 #six{
-    background-image: url(../imgs/offer-background.jpg);
+    background-image: url(../images/offer-background.jpg);
     background-size: cover;
     height: 500px;
     display: flex;
