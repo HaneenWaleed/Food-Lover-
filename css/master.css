@@ -1,75 +1,86 @@
- *{
+* {
     text-transform: capitalize;
     font-family: sans-serif;
     transition: all 1s ease;
     scroll-behavior: smooth;
 }
-#one{
+
+#one {
     background-image: url(../images/home_bg.jpeg);
     background-size: cover;
     height: 100vh;
 }
-.home{
+
+.home {
     height: 100vh;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.3);
     display: grid;
     grid-template-rows: 100px auto;
 }
-.head{
+
+.head {
     display: flex;
     justify-content: space-between;
     padding-left: 120px;
     padding-right: 120px;
-    align-items:center;
+    align-items: center;
     perspective: 1000px;
 }
-.logo{
+
+.logo {
     width: 100px;
     height: 90px;
     transition: transform 1s;
-    display: inline-block; 
+    display: inline-block;
 }
-.logo-out:hover .logo{
-    
-}
-ul{
+
+.logo-out:hover .logo {}
+
+ul {
     display: flex;
     color: white;
     gap: 30px;
     list-style: none;
 }
-li{
+
+li {
     padding: 5px;
     transition: 0.5s;
-    a{
+
+    a {
         text-decoration: none;
         color: white;
-        &:hover{
+
+        &:hover {
             color: goldenrod;
         }
     }
 }
-li:hover{
-    
-}
-.body{
+
+li:hover {}
+
+.body {
     color: white;
     display: grid;
     align-items: center;
     justify-content: center;
 }
-.bodyin{
+
+.bodyin {
     display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 16px;
 }
-#one h1,h6{
+
+#one h1,
+h6 {
     margin: 0;
 }
-.book{
+
+.book {
     width: 130px;
     height: 30px;
     border-radius: 20px;
@@ -77,20 +88,23 @@ li:hover{
     color: white;
     border: 2px solid white;
     background-color: transparent;
-    transition:all 1s;
+    transition: all 1s;
     margin-left: auto;
     margin-right: auto;
 }
-.book:hover{
-  background-color: goldenrod;
-  border: 2px solid goldenrod;
-  letter-spacing: 2px;
-  transform: scaleX(1.2);
+
+.book:hover {
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    letter-spacing: 2px;
+    transform: scaleX(1.2);
 }
-span{
-    color:  goldenrod;
+
+span {
+    color: goldenrod;
 }
-#two{
+
+#two {
     background-size: cover;
     height: 650px;
     background-color: white;
@@ -98,33 +112,40 @@ span{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-} 
-#two h1,h6{
-    color: black; 
 }
-#two h1{
+
+#two h1,
+h6 {
+    color: black;
+}
+
+#two h1 {
     margin-top: 70px;
     margin-bottom: 20px;
 }
-.sec-body{
+
+.sec-body {
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
     gap: 200px;
     margin-top: 100px;
 }
-.paragraphs{
+
+.paragraphs {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 5px;
 }
-#two p{
+
+#two p {
     font-size: 10px;
     color: rgb(99, 98, 98);
     line-height: 18px;
 }
-.learn{
+
+.learn {
     width: 150px;
     height: 30px;
     border-radius: 20px;
@@ -136,17 +157,20 @@ span{
     margin-top: 10px;
     transition: all 1s;
 }
-.learn:hover{
+
+.learn:hover {
     background-color: goldenrod;
     border: 2px solid goldenrod;
     letter-spacing: 2px;
     transform: scaleX(1.2);
 }
-#two img{
+
+#two img {
     width: 350px;
     height: 300px;
 }
-#three{
+
+#three {
     background-image: url(../images/offer-background.jpg);
     background-size: cover;
     height: 650px;
@@ -155,29 +179,35 @@ span{
     align-items: center;
     flex-direction: column;
 }
-#three h2:hover{
+
+#three h2:hover {
     color: goldenrod;
 }
-.special-food{
+
+.special-food {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
-#three h1{
+
+#three h1 {
     color: goldenrod;
     margin-top: 50px;
     margin-bottom: 0;
 }
-#three h6{
+
+#three h6 {
     margin-top: 10px;
     color: white;
     margin-bottom: 100px;
 }
-#three h6{
+
+#three h6 {
     color: white;
 }
-.offers{
+
+.offers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,39 +215,50 @@ span{
     margin-top: 0px;
     perspective: 1000px;
 }
-.img-flip:hover .im{
+
+.img-flip:hover .im {
     transform: rotateY(360deg);
 }
-.off-one,.off-two,.off-three{
+
+.off-one,
+.off-two,
+.off-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
-#three img{
+
+#three img {
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
     transition: transform 1s;
 }
-.offers h2,p{
+
+.offers h2,
+p {
     font-family: serif;
     color: white;
     margin: 0;
 }
-.offers p{
+
+.offers p {
     font-size: 10px;
 }
-.offers p:nth-child(4){
+
+.offers p:nth-child(4) {
     color: goldenrod;
 }
-.offers span{
+
+.offers span {
     font-family: serif;
     color: rgb(231, 228, 228);
     text-decoration: line-through;
 }
-#four{
+
+#four {
     background-size: cover;
     height: fit-content;
     display: flex;
@@ -226,50 +267,59 @@ span{
     align-items: center;
     padding: 30px;
 }
-#four h1{
+
+#four h1 {
     margin-bottom: 10px;
 }
-.special-menue{
+
+.special-menue {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 300px;
     margin-top: 50px;
 }
-.fo{
+
+.fo {
     display: flex;
     margin-bottom: 25px;
     justify-content: flex-start;
     align-items: center;
 }
-.fo div:nth-child(2){
+
+.fo div:nth-child(2) {
     width: 230px;
     gap: 5px;
     display: flex;
     flex-direction: column;
 }
-.food-name{
+
+.food-name {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.line{
+
+.line {
     height: 2px;
     background-color: rgb(225, 224, 224);
     border-radius: 10px;
 }
-.food-img{
+
+.food-img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-right: 16px;
 }
-.food-des{
+
+.food-des {
     color: black;
     font-size: 9px;
     font-family: sans-serif;
 }
-.menue{
+
+.menue {
     width: 170px;
     height: 30px;
     font-size: 12px;
@@ -280,12 +330,14 @@ span{
     margin-top: 16px;
     transition: all 1s;
 }
-.menue:hover{
+
+.menue:hover {
     background-color: white;
     border: 2px solid goldenrod;
-    color: goldenrod; 
+    color: goldenrod;
 }
-#five{
+
+#five {
     background-image: url(../images/daytime_bg.jpeg);
     background-size: cover;
     height: fit-content;
@@ -294,27 +346,36 @@ span{
     align-items: center;
     padding: 30px;
 }
-.daytime{
+
+.daytime {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
-.time-one,.time-two,.time-three,.time-four{
+
+.time-one,
+.time-two,
+.time-three,
+.time-four {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
-.png-img{
+
+.png-img {
     width: 50px;
     height: 50px;
 }
-#five h2,h6{
+
+#five h2,
+h6 {
     color: white;
     margin: 10px;
 }
-#six{
+
+#six {
     background-image: url(../images/offer-background.jpg);
     background-size: cover;
     height: 500px;
@@ -326,166 +387,201 @@ span{
     box-sizing: border-box;
     gap: 50px;
 }
-.gallary{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
+
+.gallary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
-.gallary div{
-  display: grid;
-  grid-template-columns: repeat(4,auto);
-  gap: 20px;
-  grid-template-rows: repeat(2,auto);
-  animation: move 3s ease-out infinite forwards alternate;
-  transition: all 2s;
+
+.gallary div {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    grid-template-rows: repeat(2, auto);
+    animation: move 3s ease-out infinite forwards alternate;
+    transition: all 2s;
 }
+
 @keyframes move {
-  from{
-    transform: translateX(0);
-    opacity: 1;
-  }
-  to{
-    transform: translateX(100px);
-    opacity: 0.5;
-  }
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(100px);
+        opacity: 0.5;
+    }
 }
-.gallary img{
-  width: 170px;
-  height: 130px;
-  border-radius: 8px;
+
+.gallary img {
+    width: 170px;
+    height: 130px;
+    border-radius: 8px;
 }
-.gallary h2{
-  color: goldenrod;
-  text-align: center;
-  animation: letter 3s ease-out infinite forwards alternate;
-  transition: all 2s;
+
+.gallary h2 {
+    color: goldenrod;
+    text-align: center;
+    animation: letter 3s ease-out infinite forwards alternate;
+    transition: all 2s;
 }
+
 @keyframes letter {
-  from{
-    letter-spacing: normal;
-  }
-  to{
-    letter-spacing: 8px;
-  }
+    from {
+        letter-spacing: normal;
+    }
+
+    to {
+        letter-spacing: 8px;
+    }
 }
-.set{
-  width: 130px;
-  height: 40px;
-  border-radius: 12px;
-  font-size: 10px;
-  background-color: goldenrod;
-  color: white;
-  border: 2px solid goldenrod;
-  text-transform: uppercase;
-  transition: 0.5s;
+
+.set {
+    width: 130px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 10px;
+    background-color: goldenrod;
+    color: white;
+    border: 2px solid goldenrod;
+    text-transform: uppercase;
+    transition: 0.5s;
 }
-.set:hover{
-  background-color: transparent;
-  color: goldenrod;
-  border: 2px solid goldenrod;
+
+.set:hover {
+    background-color: transparent;
+    color: goldenrod;
+    border: 2px solid goldenrod;
 }
-#seven{
-  background-size: cover;
-  height: 400px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px;
+
+#seven {
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
-.address i{
-  color: goldenrod;
-  width: 24px;
-  height: 24px;
+
+.address i {
+    color: goldenrod;
+    width: 24px;
+    height: 24px;
 }
-.personal p{
-  color: rgb(185, 183, 183);
-  font-size: 10px;
+
+.personal p {
+    color: rgb(185, 183, 183);
+    font-size: 10px;
 }
-.icons i{
-  color: white;
+
+.icons i {
+    color: white;
 }
-.icons{
-  display: flex;
+
+.icons {
+    display: flex;
 }
-.icons div{
-  background-color: rgb(91, 90, 90);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.5s ;
+
+.icons div {
+    background-color: rgb(91, 90, 90);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
 }
-.icons div:hover{
-  background-color: goldenrod;
-  transform: scale(1.1);
+
+.icons div:hover {
+    background-color: goldenrod;
+    transform: scale(1.1);
 }
-.icons div:nth-child(2){
-  position: relative;
-  left: -15px;
+
+.icons div:nth-child(2) {
+    position: relative;
+    left: -15px;
 }
-.icons div:nth-child(3){
-  position: relative;
-  left: -25px;
+
+.icons div:nth-child(3) {
+    position: relative;
+    left: -25px;
 }
-form{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
-.one,.two,.three{
-  width: 250px;
-  height: 30px;
-  border-radius: 15px;
-  border: 0px;
-  background-color: rgb(247, 222, 160);
-  text-align: center;
+
+.one,
+.two,
+.three {
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: rgb(247, 222, 160);
+    text-align: center;
 }
-.one:focus,.two:focus,.three:focus,.four:focus{
-  background-color: white;
-  border: 2px solid rgb(247, 210, 117);
+
+.one:focus,
+.two:focus,
+.three:focus,
+.four:focus {
+    background-color: white;
+    border: 2px solid rgb(247, 210, 117);
+    outline: 0px;
 }
-.four{
-  width: 250px;
-  height: 70px;
-  border-radius: 15px;
-  border: 0px;
-  text-align: center;
-  background-color: rgb(247, 222, 160);
+
+.four {
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    border: 0px;
+    text-align: center;
+    background-color: rgb(247, 222, 160);
 }
-form button{
-  width: 150px;
-  height: 30px;
-  background-color: goldenrod;
-  border: 0px;
-  border-radius: 15px;
-  color: white;
-  transition: all 0.5s;
+
+form button {
+    width: 150px;
+    height: 30px;
+    background-color: goldenrod;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    transition: all 0.5s;
 }
-form button:hover{
-  background-color: transparent;
-  color: goldenrod;
-  border-bottom: 3px solid goldenrod;
-  transform: scale(1.1);
+
+form button:hover {
+    background-color: transparent;
+    color: goldenrod;
+    border-bottom: 3px solid goldenrod;
+    transform: scale(1.1);
 }
-#eight{
-  background-color: black;
-  background-size: cover;
-  height: fit-content;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+#eight {
+    background-color: black;
+    background-size: cover;
+    height: fit-content;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#eight p{
-  color: white;
-  font-size: 10px;
-  font-family: sans-serif;
+
+#eight p {
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
 }
-#eight a{
-  color: goldenrod;
+
+#eight a {
+    color: goldenrod;
+    text-decoration: none;
 }
